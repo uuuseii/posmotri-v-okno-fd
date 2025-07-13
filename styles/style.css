@@ -81,6 +81,7 @@ ol {
   width: inherit;
   height: inherit;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -169,7 +170,7 @@ ol {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #fff;
@@ -224,7 +225,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 30px;
   padding-top: 2px;
 }
 
@@ -269,6 +270,7 @@ ol {
 }
 
 .content__video-card-title {
+  line-height: 100%;
   font-size: 30px;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
@@ -276,6 +278,7 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-bottom: 5px;
 }
 
 .content__video-card-description {
